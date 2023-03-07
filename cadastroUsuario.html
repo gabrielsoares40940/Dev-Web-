@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form method="post" action="cadastro.php">
+        <div>
+            <h2 class="telaDeCadastro_">Tela de cadastro</h2>
+            <input type="text" name="usuarioCadastro_" placeholder="Usuário" required><br><br>
+            <input type="email" name="email_" placeholder="E-mail" required><br><br>
+            <input type="password" name="senhaCadastro_" placeholder="Senha" required><br><br>
+        </div>
+        <div>
+            <select name="perfil_" required>
+                <option disabled="">Nível</option>
+                <option>Administrador</option>
+                <option>Professor</option>
+                <option>Aluno</option>
+                <option>Outro</option>
+            </select><br><br>
+        </div>
+        <div>
+            <input type="submit" name="cadastrar_" value="Cadastrar" onclick="index.html"><br><br>
+            <a href="index.html">Já possui login?</a>
+        </div>
+    </form>
+</body>
+</html>
